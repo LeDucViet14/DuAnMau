@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Viet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="containar">
+        <header>
+
+            <a href="#" class='logo'><i class="fa-solid fa-house-laptop"></i>viet.Electro</a>
+    
+            <nav class='navbar'>
+                <a class='active' href="#home">Trang chủ</a>
+                <a href="#gioithieu">Giới thiệu</a>
+                <a href="#lienhe">Liên hệ</a>
+                <a href="#gopy">góp ý</a>
+                <a href="#hoidap">hỏi đáp</a>
+            </nav>
+    
+            <div class='icons'>
+                <i class='fas fa-bars' id='menu-bars'></i>
+                <i class='fas fa-search' id='search-icon'></i>
+                <a href="#" class='fas fa-heart'></a>
+                <a href="#" class='fas fa-shopping-cart'></a>
+                <i class="fa-solid fa-user-plus" id='user-icon'></i>
+            </div>
+    
+        </header>
+        <!-- end header -->
+    
+        <form action="" id='search-form'>
+            <input type="search" placeholder="search here..." name='' id='search-box'>
+            <label for="search-box" class='fas fa-search'></label>
+            <i class="fa-regular fa-circle-xmark" id='close'></i>
+        </form>
+        <!-- end search -->
+        <div class="user">
+            <form action="" id="log-in">
+                <h1>Sign in</h1>
+                <button class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <span>Sign in with Google</span>
+                </button>
+                <div class="or"><span>Or</span></div>
+    
+                <label for="user" class="label">User</label>
+                <input type="text" name="" id="user" placeholder="Eg: Leducviet14">
+                <label for="pass" class="label">password</label>
+                <input type="password" name="" id="pass">
+                <button class="submit">Sgin in</button>
+                <p>
+                    <a href="">Bạn chưa có tài khoản?</a>
+                </p>
+                <i class="fa-solid fa-xmark" id="close-login"></i>
+            </form>
+        </div>
+        <!-- end login -->
+    
+        <section class="home" id="home">
+    
+            <div class="swiper mySwiper home-slider">
+    
+                <div class="swiper-wrapper wrapper">
+    
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Sản phẩm nổi bật</span>
+                            <h3>Iphone 12 pro max</h3>
+                            <p>Giảm giá lên đến 50%</p>
+                            <a href="#" class="btn">Mua ngay</a>
+                        </div>
+                        <div class="image">
+                            <img src="image/image1.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Sản phẩm bán chạy</span>
+                            <h3>Đồng hồ đẳng cấp</h3>
+                            <p>Giảm giá lên đến 40% và tặng kèm voucher 700k</p>
+                            <a href="#" class="btn">Mua ngay</a>
+                        </div>
+                        <div class="image">
+                            <img src="image/image2.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Sản phẩm mới</span>
+                            <h3>Tai nghe Airport</h3>
+                            <p>Giảm giá lên đến 40%</p>
+                            <a href="#" class="btn">Mua ngay</a>
+                        </div>
+                        <div class="image">
+                            <img src="image/image5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+    
+            </div>
+        </section>
+        <!-- end slider -->
+    
+        <div class="main-content">
+            <div class="big-box">
+                <div class="boxleft">
+                    <div class="danhmuc mb">
+                        <div class="title">
+                            <i class="fa-solid fa-list"></i>
+                            <span>Danh Mục</span>
+                        </div>
+                        <div class="box-content">
+                            <ul>
+                                <li>máy tính và phụ kiện</li>
+                                <li>Máy ảnh, âm thanh và video</li>
+                                <li>Điện thoại và máy tính bảng</li>
+                                <li>Đồng hồ đeo tay</li>
+                                <li>Tai nghe</li>
+                                <li>Phụ kiện</li> 
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="tops">
+                        <div class="title">
+                            <span>Top 10 yêu thích</span>
+                        </div>
+                        <div class="box-content-top">
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                            <div class="row">
+                                <img src="image/image1.jpg" alt="">
+                                <a href="#">iphone 15 pro max</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end boxleft -->
+                
+                
+                <div class="boxright">
+                    <section class="product" id="product">
+                        <h3 class="sub-heading">Sản phẩm của chúng tôi</h3>
+                        <h1 class="heading">Nổi bật</h1>
+    
+                        <div class="box-contairer">
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image1.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image1.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+    
+                            <div class="box">
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                                <img src="image/image5.jpg" alt="">
+                                <h3>le duc viet</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span>$15.32</span>
+                                <!-- <a href="#" class="btn">Mua ngay</a> -->
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- end boxright -->
+            </div>
+            <!-- end box-big -->
+            <section class="about" id="aubout">
+                <h3 class="sub-heading">Giới thiệu</h3>
+                <h1 class="heading">Tại sao bạn nên chọn chúng tôi ?</h1>
+                <div class="row">
+                    <div class="image">
+                        <img src="image/image1.jpg" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3>Cửa hàng chất lượng tốt nhất</h3>
+                        <p>Nổi bật với những sản phẩm chất lượng mà giá lại phải chăng, giao hàng nhanh, đổi trả 1:1 nếu như có bất cứ lỗi gì, bảo hành trên 2 năm tuỳ từng sản phẩm,
+                            tặng kèm voucher mã giảm giá. uy tín tạo nên thương hiệu - đẳng cấp quốc tế.
+                        </p>
+                        <p>Hãy lựa chọn chúng tôi </p>
+
+                        <div class="icons-container">
+                            <div class="icons">
+                                <i class="fa-solid fa-truck-fast"></i>
+                                <span>Giao hàng nhanh</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fa-solid fa-comments-dollar"></i>
+                                <span>thanh toán</span>
+                            </div>
+                            <div class="icons">
+                                <i class="fas fa-headset"></i>
+                                <span>dịch vụ 24/7</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Xem thêm</a>
+                    </div>
+                </div>
+            </section>
+            <!-- end giới thiệu -->
+
+            <!-- <section class="review" id="review">
+                
+                <h3 class="sub-heading">Đánh giá của khách hàng</h3>
+                <h1 class="heading">Họ đã nói gì ?</h1>
+                <div class="swiper-container review-slider">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="user-name">
+                                <img src="image/rv1.jpg" alt="">
+                                <div class="user-infor">
+                                    <h3>le duc viet</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Sản phẩm chất lượng, shop uy tín, giá cả phải chăng, nhân viên tư vấn nhiệt tình, thanh toán dễ dàng thuận tiện, bảo hành lâu năm.
+                                Mong rằng shop phát triển hơn nữa và mình sẽ ủng hộ shop lâu dài. 
+                            </p>
+                        </div>
+                        
+                        <div class="swiper-slide slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="user-name">
+                                <img src="image/rv2.jpg" alt="">
+                                <div class="user-infor">
+                                    <h3>le duc viet</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Sản phẩm chất lượng, shop uy tín, giá cả phải chăng, nhân viên tư vấn nhiệt tình, thanh toán dễ dàng thuận tiện, bảo hành lâu năm.
+                                Mong rằng shop phát triển hơn nữa và mình sẽ ủng hộ shop lâu dài. 
+                            </p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="user-name">
+                                <img src="image/rv3.jpg" alt="">
+                                <div class="user-infor">
+                                    <h3>le duc viet</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Sản phẩm chất lượng, shop uy tín, giá cả phải chăng, nhân viên tư vấn nhiệt tình, thanh toán dễ dàng thuận tiện, bảo hành lâu năm.
+                                Mong rằng shop phát triển hơn nữa và mình sẽ ủng hộ shop lâu dài. 
+                            </p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <i class="fas fa-quote-right"></i>
+                            <div class="user-name">
+                                <img src="image/rv4.jpg" alt="">
+                                <div class="user-infor">
+                                    <h3>le duc viet</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Sản phẩm chất lượng, shop uy tín, giá cả phải chăng, nhân viên tư vấn nhiệt tình, thanh toán dễ dàng thuận tiện, bảo hành lâu năm.
+                                Mong rằng shop phát triển hơn nữa và mình sẽ ủng hộ shop lâu dài. 
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section> -->
+
+
+        </div>
+        <!-- end main-content -->
+
+        <footer class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <h3><i class="fa-solid fa-location-dot"></i>Location</h3>
+                    <a href="#">Ha Noi</a>
+                    <a href="#">TP.Ho Chi Minh</a>
+                    <a href="#">Da Nang</a>
+                    <a href="#">Hai Phong</a>
+                    <a href="#">Sai Gon</a>
+                </div>
+
+                <div class="box">
+                    <h3><i class="fa-solid fa-link"></i>Quick links</h3>
+                    <a href="#">Trang chu</a>
+                    <a href="#">gioi thieu</a>
+                    <a href="#">lien he</a>
+                    <a href="#">gop y</a>
+                    <a href="#">hoi dap</a>
+                </div>
+
+                <div class="box">
+                    <h3><i class="fa-solid fa-globe"></i>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="#">tiktok</a>
+                </div>
+
+                <div class="box">
+                    <h3><i class="fa-solid fa-phone-volume"></i>contact info</h3>
+                    <a href="#">+(84)5689999</a>
+                    <a href="#">+(84)9872222</a>
+                    <a href="#">shopviet@gmail.com</a>
+                    <a href="#">shopviet@gmail.com</a>
+                    <a href="#">Hoang Xa - Thong Nhat</a>
+                </div>
+
+                
+
+            </div>
+
+            <div class="credit">copyright @ 2023 by <span>Mr.Viet</span></div>
+        </footer class="footer">
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
